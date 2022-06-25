@@ -27,6 +27,9 @@
         "quotes": ["error", "single"],
         "no-duplicate-imports": "error",
         "prefer-arrow-callback": "error",
+        "no-useless-return": "error",
+        "no-return-assign": ["error", "except-parens"],
+        "arrow-parens": ["error", "as-needed"],
         "react/function-component-definition": [
             "warn",
             { "namedComponents": "arrow-function", "unnamedComponents": "arrow-function" }
