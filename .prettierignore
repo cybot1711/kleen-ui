@@ -1,0 +1,5 @@
+# Ignore MDX files (removing lines causes issues)
+*.mdx
+
+# Ignore template files
+*.ejs
