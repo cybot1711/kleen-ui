@@ -1,0 +1,22 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+
+<Meta title="Intro" />
+
+export const Template = ({ children }) => (
+  <div>{children}</div>
+);
+
+<Canvas>
+  <Story
+    name="Intro"
+    argTypes={{
+      children: {
+        name: 'text',
+      },
+    }}
+    args={{
+      children: 'test info',
+    }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
