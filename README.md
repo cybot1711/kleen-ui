@@ -1,46 +1,100 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
+## About the project
 
-In the project directory, you can run:
+This project forms part of the take home task assigned for a frontend engineering role at ClearScore.  
 
-### `yarn start`
+The core focus of this part of the solution:  
+- Create a small ui kit that can be installed via yarn/npm etc.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Technologies and Libraries used
 
-### `yarn build`
+The core libraries are listed here:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [ReactJS](https://reactjs.org/)
+* [MaterialUI](https://mui.com/)
+* [Typescript](https://www.typescriptlang.org/)
+* [CreatReactApp](https://create-react-app.dev/)
+* [ESLint](https://eslint.org/)
+* [Prettier](https://prettier.io/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ESLint and prettier are set up as combined config. Formatting will run as part of linting rules.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `yarn eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. ```shell
+   yarn
+   ```
+2. You should have no errors after installation and that is pretty much it for installation.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div id="usage"></div>
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Here will follow steps to run the project.
+* To start the application in watch mode
+    ```shell
+    yarn start
+    ```
+* To lint and format the code
+    ```shell
+    yarn lint
+    ```
+* To fix linting and formatting
+    ```shell
+    yarn lint:fix
+    ```
+  * To fix linting and formatting
+    ```shell
+    yarn storybook
+    ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Roadmap
+
+- [x] Create Tag
+- [x] Create Page
+- [x] Create Drawer
+- [x] Create Card
+
+## Follow up
+### Implementation
+
+_Library Selection_
+* ReactJS - The required tool for the job.
+* Material UI - Quick multi select.
+* Typescript - For some added Type safety to tighten up the data contract across various segments of the app. Also aids in catching
+  bugs that you might have missed.
+* Prettier - Formats the code.
+* ESLint - Enforce som standards and rules. Basic configuration.
+
+_Start Command_ `yarn start` (<a href="#usage">Refer to the usage section</a>)
+
+### General
+Given more time I would Implement the following.
+* Config setup for test, staging and prod.
+* Implement path aliases for module imports.
+* Error handling and tracking.
+* More reusable components.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/jahil-khalfe/
+
