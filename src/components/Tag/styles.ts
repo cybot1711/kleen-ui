@@ -27,6 +27,7 @@ export const styles = {
         type === TYPES.ON_TRACK || type === TYPES.OFF_TRACK || type === TYPES.IMPACT
           ? {
               borderRadius: 4,
+              letterSpacing: 0.4,
               ...typeStyles?.[type],
               ...(type === TYPES.IMPACT
                 ? { width: '100%', [theme.breakpoints.up('lg')]: { width: 'auto' } }

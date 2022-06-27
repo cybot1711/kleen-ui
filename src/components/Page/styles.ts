@@ -9,4 +9,4 @@ export const styles = {
   maxWidth: {
     margin: '0 auto',
   },
-}
+} as const

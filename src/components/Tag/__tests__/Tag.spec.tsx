@@ -2,11 +2,11 @@ import React from 'react'
 import theme from '../../../theme'
 import { render, screen } from '../../../utils/testUtils'
 
-import Chip, { type TagProps, TYPES } from '..'
+import Tag, { type TagProps, TYPES } from '..'
 
 describe('Component:Tag', () => {
   let props: TagProps
-  const view = () => render(<Chip {...props} />)
+  const view = () => render(<Tag {...props} />)
 
   beforeEach(() => {
     props = {}
