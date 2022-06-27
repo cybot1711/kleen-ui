@@ -6,7 +6,7 @@ import Page from '../Page'
 import { PageProps } from '../types'
 
 export default {
-  title: 'Components/Page/Page',
+  title: 'Components/Page',
   component: Page,
 } as Meta
 
