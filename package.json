@@ -28,7 +28,7 @@
     "lint": "eslint --ext .jsx,.js,.ts,.tsx src/",
     "lint:fix": "yarn lint --fix",
     "prepare": "husky install",
-    "storybook": "start-storybook -p 6006 -s public",
+    "storybook": "start-storybook --no-manager-cache -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
