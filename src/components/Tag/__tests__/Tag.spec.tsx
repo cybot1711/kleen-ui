@@ -2,7 +2,7 @@ import React from 'react'
 import theme from '../../../theme'
 import { render, screen } from '../../../utils/testUtils'
 
-import Chip, { type TagProps, TYPES } from '../index'
+import Chip, { type TagProps, TYPES } from '..'
 
 describe('Component:Tag', () => {
   let props: TagProps
