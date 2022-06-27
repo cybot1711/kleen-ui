@@ -6,6 +6,9 @@
 
 This project forms part of the take home task assigned for a frontend engineering role at ClearScore.  
 
+
+Project live at [Chromatic](https://62b9bea77d96601ae1a601a9-yztyjkctwr.chromatic.com/)
+
 The core focus of this part of the solution:  
 - Create a small ui kit that can be installed via yarn/npm etc.
 

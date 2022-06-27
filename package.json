@@ -29,7 +29,8 @@
     "lint:fix": "yarn lint --fix",
     "prepare": "husky install",
     "storybook": "start-storybook --no-manager-cache -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=d2a0f2c1af8a"
   },
   "eslintConfig": {
     "extends": [
@@ -78,6 +79,7 @@
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.6.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-import": "^2.26.0",
@@ -89,5 +91,7 @@
     "prettier": "^2.6.2",
     "prop-types": "^15.8.1",
     "webpack": "^5.73.0"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "kleen-ui@0.1.0"
 }
