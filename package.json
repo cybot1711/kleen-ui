@@ -127,6 +127,7 @@
   "description": "Quick UI-Kit",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:cybot1711/kleen-ui.git",
   "author": "cybot1711 <jahil.khalfe@gmail.com>",
   "license": "MIT"
