@@ -7,7 +7,8 @@
 This project forms part of the take home task assigned for a frontend engineering role at ClearScore.  
 
 
-Project live at [Chromatic](https://62b9bea77d96601ae1a601a9-yztyjkctwr.chromatic.com/)
+Storybook live at [Chromatic](https://62b9bea77d96601ae1a601a9-yztyjkctwr.chromatic.com/)  
+Project live at [Chromatic](https://www.chromatic.com/builds?appId=62b9bea77d96601ae1a601a9)
 
 The core focus of this part of the solution:  
 - Create a small ui kit that can be installed via yarn/npm etc.
@@ -61,7 +62,7 @@ Here will follow steps to run the project.
     ```shell
     yarn lint:fix
     ```
-  * To fix linting and formatting
+* Runs storybook
     ```shell
     yarn storybook
     ```

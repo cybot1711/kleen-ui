@@ -5,6 +5,7 @@ public
 .idea
 .circleci
 build
+dist
 coverage
 husky
 
