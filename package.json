@@ -30,16 +30,28 @@
     "prepare": "husky install",
     "storybook": "start-storybook --no-manager-cache -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token=d2a0f2c1af8a"
+    "chromatic": "npx chromatic --project-token=d2a0f2c1af8a",
+    "release": "auto shipit --base-branch=main"
   },
   "babel": {
     "presets": [
+      "@babel/preset-env",
       [
-        "react-app",
+        "@babel/preset-react",
         {
           "absoluteRuntime": false
         }
+      ],
+      [
+        "@babel/preset-typescript",
+        {
+          "allowNamespaces": true
+        }
       ]
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-object-rest-spread",
+      "@babel/plugin-transform-typescript"
     ]
   },
   "eslintConfig": {
@@ -77,6 +89,11 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.18.6",
+    "@babel/plugin-transform-typescript": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-essentials": "^6.5.9",
     "@storybook/addon-interactions": "^6.5.9",
@@ -109,6 +126,7 @@
   "_id": "kleen-ui@0.1.0",
   "description": "Quick UI-Kit",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "repository": "git@github.com:cybot1711/kleen-ui.git",
   "author": "cybot1711 <jahil.khalfe@gmail.com>",
   "license": "MIT"
