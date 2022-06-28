@@ -1,5 +1,4 @@
 import { render, type RenderOptions } from '@testing-library/react'
-import '@testing-library/jest-dom'
 import '@testing-library/jest-dom/extend-expect'
 import { TestWrapper } from './TestWrapper'
 import type { ReactElement, JSXElementConstructor } from 'react'
