@@ -1,7 +1,8 @@
 import React, { type FC } from 'react'
 
-import { Chip as MuiChip, styled } from '@mui/material'
+import { Chip as MuiChip } from '@mui/material'
 import clsx from 'clsx'
+import { styled } from '@mui/material/styles'
 
 import { TYPES } from './const'
 import { styles } from './styles'
