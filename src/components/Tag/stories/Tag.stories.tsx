@@ -1,7 +1,7 @@
 import React from 'react'
 import type { Meta, Story } from '@storybook/react'
 
-import Tag, { type TagProps, TYPES } from '..'
+import { Tag, type TagProps, TYPES } from '..'
 
 export default {
   title: 'Components/Tag',

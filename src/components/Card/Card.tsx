@@ -13,7 +13,7 @@ const StyledImpactDesktop = styled(Grid)(styles.impactDesktop)
  * Chips are compact elements that represent an input, attribute, or action.
  * Extends the MUI Card. See https://material-ui.com/api/card/
  */
-const Card: FC<CardProps> = styled(
+export const Card: FC<CardProps> = styled(
   ({
     className,
     title = 'Title',
@@ -48,5 +48,3 @@ const Card: FC<CardProps> = styled(
     )
   },
 )(styles.container)
-
-export default Card

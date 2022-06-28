@@ -14,7 +14,7 @@ const StyledContentContainer = styled('div')(styles.contentContainer)
 const StyledIconButton = styled(IconButton)(styles.closeX) as typeof IconButton
 
 /** Slide-out drawer */
-const Drawer: FC<DrawerProps> = ({
+export const Drawer: FC<DrawerProps> = ({
   'data-testid': dataTestId = 'Drawer',
   anchor = 'right',
   children,
@@ -44,5 +44,3 @@ const Drawer: FC<DrawerProps> = ({
     </Root>
   )
 }
-
-export default Drawer

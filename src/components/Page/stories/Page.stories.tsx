@@ -2,8 +2,7 @@ import React from 'react'
 
 import { type Meta, type Story } from '@storybook/react'
 
-import Page from '../Page'
-import { PageProps } from '../types'
+import { Page, type PageProps } from '..'
 
 export default {
   title: 'Components/Page',

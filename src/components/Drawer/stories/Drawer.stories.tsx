@@ -1,8 +1,7 @@
 import React from 'react'
 
-import Drawer from '../Drawer'
+import { Drawer, type DrawerProps } from '..'
 import type { Meta, Story } from '@storybook/react'
-import { type DrawerProps } from '../types'
 
 export default {
   title: 'Components/Drawer',

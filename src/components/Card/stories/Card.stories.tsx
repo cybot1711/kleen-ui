@@ -1,8 +1,8 @@
 import React from 'react'
 import type { Meta, Story } from '@storybook/react'
 
-import Card, { type CardProps } from '..'
-import Tag, { TYPES } from '../../Tag'
+import { Card, type CardProps } from '..'
+import { Tag, TYPES } from '../../Tag'
 
 export default {
   title: 'Components/Card',

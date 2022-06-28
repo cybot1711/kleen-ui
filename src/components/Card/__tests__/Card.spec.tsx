@@ -1,8 +1,7 @@
 import React from 'react'
 import { render, screen } from '../../../utils/testUtils'
-import Tag, { TYPES } from '../../Tag'
-import { type CardProps } from '../types'
-import Card from '../Card'
+import { Tag, TYPES } from '../../Tag'
+import { Card, type CardProps } from '..'
 
 describe('Component:Card', () => {
   let props: CardProps

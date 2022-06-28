@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Drawer, { type DrawerProps } from '..'
+import { Drawer, type DrawerProps } from '..'
 import { render, screen, fireEvent } from '../../../utils/testUtils'
 
 describe('Component:Drawer', () => {
