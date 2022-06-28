@@ -1,6 +1,6 @@
 import React, { type FC, type ReactNode, StrictMode } from 'react'
 import { CssBaseline, StyledEngineProvider, ThemeProvider } from '@mui/material'
-import theme from '../theme'
+import { theme } from '../theme'
 
 /**
  * Custom provider for providing theme to your app

@@ -1,6 +1,6 @@
 import { render, type RenderOptions } from '@testing-library/react'
 import '@testing-library/jest-dom'
-import TestWrapper from './TestWrapper/'
+import { TestWrapper } from './TestWrapper'
 import type { ReactElement, JSXElementConstructor } from 'react'
 
 const customRender = (

@@ -2,7 +2,7 @@ import React from 'react'
 import { render, screen } from '../../../utils/testUtils'
 
 import { Page, type PageProps } from '..'
-import theme from '../../../theme'
+import { theme } from '../../../theme'
 
 describe('Component:Page', () => {
   let props: PageProps

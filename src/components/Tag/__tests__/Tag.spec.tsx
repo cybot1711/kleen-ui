@@ -1,5 +1,5 @@
 import React from 'react'
-import theme from '../../../theme'
+import { theme } from '../../../theme'
 import { render, screen } from '../../../utils/testUtils'
 
 import { Tag, type TagProps, TYPES } from '..'

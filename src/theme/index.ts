@@ -1,6 +1,6 @@
 import { createTheme } from '@mui/material/styles'
 
-const theme = createTheme({
+export const theme = createTheme({
   palette: {
     midnight: '#253648',
     gallery: '#F7F7F8',
@@ -41,5 +41,3 @@ const theme = createTheme({
     maxContentWidth: 1120,
   },
 })
-
-export { theme as default }
