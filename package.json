@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "cross-env BABEL_ENV=production babel --extensions .ts,.tsx src -d dist",
+    "build": "cross-env BABEL_ENV=production babel --extensions .ts,.tsx src -d dist && tsc",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --ext .jsx,.js,.ts,.tsx src/",
