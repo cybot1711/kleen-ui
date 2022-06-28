@@ -1,3 +1,15 @@
+# v0.1.4 (Tue Jun 28 2022)
+
+#### ⚠️ Pushed to `main`
+
+- prefer named exports for theme and utils ([@cybot1711](https://github.com/cybot1711))
+
+#### Authors: 1
+
+- Jahil Khalfe ([@cybot1711](https://github.com/cybot1711))
+
+---
+
 # v0.1.3 (Tue Jun 28 2022)
 
 #### ⚠️ Pushed to `main`
