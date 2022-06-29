@@ -1,3 +1,15 @@
+# v0.1.8 (Wed Jun 29 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Make some small adjustments and export the Theme interface. ([@cybot1711](https://github.com/cybot1711))
+
+#### Authors: 1
+
+- Jahil Khalfe ([@cybot1711](https://github.com/cybot1711))
+
+---
+
 # v0.1.7 (Tue Jun 28 2022)
 
 #### ⚠️ Pushed to `main`
