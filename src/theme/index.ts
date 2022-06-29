@@ -1,6 +1,6 @@
 import { createTheme } from '@mui/material/styles'
 
-import { type Theme } from '@mui/material'
+import { type Theme, Typography, Grid } from '@mui/material'
 
 export const theme = createTheme({
   palette: {
@@ -44,4 +44,4 @@ export const theme = createTheme({
   },
 })
 
-export { type Theme }
+export { type Theme, Typography, Grid }
