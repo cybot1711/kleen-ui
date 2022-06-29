@@ -1,5 +1,7 @@
 import { createTheme } from '@mui/material/styles'
 
+import { type Theme } from '@mui/material'
+
 export const theme = createTheme({
   palette: {
     midnight: '#253648',
@@ -41,3 +43,5 @@ export const theme = createTheme({
     maxContentWidth: 1120,
   },
 })
+
+export { type Theme }

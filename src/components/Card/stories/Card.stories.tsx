@@ -14,6 +14,7 @@ export default {
         'ON TRACK': <Tag type={TYPES.ON_TRACK} />,
         'OFF TRACK': <Tag type={TYPES.OFF_TRACK} />,
       },
+      defaultValue: 'ON TRACK',
     },
     impactTag: {
       options: ['HIGH', 'MEDIUM'],
@@ -21,6 +22,7 @@ export default {
         HIGH: <Tag type={TYPES.IMPACT} severity={'HIGH'} />,
         MEDIUM: <Tag type={TYPES.IMPACT} severity={'MEDIUM'} />,
       },
+      defaultValue: 'HIGH',
     },
   },
 } as Meta<CardProps>

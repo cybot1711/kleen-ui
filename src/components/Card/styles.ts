@@ -4,7 +4,7 @@ export const styles = {
   container: ({ theme }: { theme: Theme }) => ({
     padding: theme.spacing(4),
     boxShadow: theme.customShadow,
-    borderRadius: 16,
+    borderRadius: 8,
     [theme.breakpoints.up('md')]: {
       padding: theme.spacing(5),
     },
