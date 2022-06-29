@@ -1,3 +1,15 @@
+# v0.1.9 (Wed Jun 29 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Export Grid and Typography ([@cybot1711](https://github.com/cybot1711))
+
+#### Authors: 1
+
+- Jahil Khalfe ([@cybot1711](https://github.com/cybot1711))
+
+---
+
 # v0.1.8 (Wed Jun 29 2022)
 
 #### ⚠️ Pushed to `main`
