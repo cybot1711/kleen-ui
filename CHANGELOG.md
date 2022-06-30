@@ -1,3 +1,15 @@
+# v0.1.10 (Thu Jun 30 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Set min widths for breakpoints ([@cybot1711](https://github.com/cybot1711))
+
+#### Authors: 1
+
+- Jahil Khalfe ([@cybot1711](https://github.com/cybot1711))
+
+---
+
 # v0.1.9 (Wed Jun 29 2022)
 
 #### ⚠️ Pushed to `main`
