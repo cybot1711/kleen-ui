@@ -9,7 +9,6 @@ import { styles } from './styles'
 import { type TagProps } from './types'
 
 /**
- * Chips are compact elements that represent an input, attribute, or action.
  * Extends the MUI Chip. See https://material-ui.com/api/chip/
  */
 export const Tag: FC<TagProps> = styled(

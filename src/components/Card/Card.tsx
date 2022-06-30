@@ -1,6 +1,7 @@
 import React, { type FC } from 'react'
 
-import { Card as MuiCard, styled, Typography, CardContent, Grid } from '@mui/material'
+import { Card as MuiCard, Typography, CardContent, Grid } from '@mui/material'
+import { styled } from '@mui/material/styles'
 import clsx from 'clsx'
 import { styles } from './styles'
 import { type CardProps } from './types'
@@ -10,8 +11,7 @@ const StyledImpact = styled(Grid)(styles.impact)
 const StyledImpactDesktop = styled(Grid)(styles.impactDesktop)
 
 /**
- * Chips are compact elements that represent an input, attribute, or action.
- * Extends the MUI Card. See https://material-ui.com/api/card/
+ * Card extended from material ui.
  */
 export const Card: FC<CardProps> = styled(
   ({
