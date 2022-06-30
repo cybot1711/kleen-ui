@@ -5,12 +5,16 @@ export const styles = {
     padding: theme.spacing(4),
     boxShadow: theme.customShadow,
     borderRadius: 8,
+    minWidth: 180,
+    display: 'flex',
+    flexDirection: 'column',
     [theme.breakpoints.up('md')]: {
       padding: theme.spacing(5),
     },
   }),
   content: {
     padding: 0,
+    flex: 1,
   },
   impact: ({ theme }: { theme: Theme }) => ({
     display: 'flex',

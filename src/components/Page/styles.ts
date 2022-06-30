@@ -5,6 +5,7 @@ export const styles = {
     height: '100%',
     padding: `${theme.spacing(5)} 0`,
     backgroundColor: theme.palette.gallery,
+    overflowX: 'auto',
   }),
   maxWidth: ({ theme }: { theme: Theme }) => ({
     margin: '0 auto',
