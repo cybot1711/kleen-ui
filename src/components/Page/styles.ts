@@ -8,7 +8,7 @@ export const styles = {
   }),
   maxWidth: ({ theme }: { theme: Theme }) => ({
     margin: '0 auto',
-    minWidth: theme.values.minContentWidthSm,
+    minWidth: theme.values.minContentWidthXs,
     [theme.breakpoints.up('md')]: {
       minWidth: theme.values.minContentWidthMd,
     },
