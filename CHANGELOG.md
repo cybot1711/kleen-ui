@@ -1,3 +1,15 @@
+# v0.1.13 (Thu Jun 30 2022)
+
+#### 🐛 Bug Fix
+
+- Add xs min width to content container. [#4](https://github.com/cybot1711/kleen-ui/pull/4) ([@cybot1711](https://github.com/cybot1711))
+
+#### Authors: 1
+
+- Jahil Khalfe ([@cybot1711](https://github.com/cybot1711))
+
+---
+
 # v0.1.12 (Thu Jun 30 2022)
 
 #### 🐛 Bug Fix
