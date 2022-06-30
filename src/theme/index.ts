@@ -43,6 +43,7 @@ export const theme = createTheme({
     maxContentWidth: 1120,
     minContentWidthMd: 1120,
     minContentWidthSm: 768,
+    minContentWidthXs: 375,
   },
 })
 
