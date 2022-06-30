@@ -1,3 +1,15 @@
+# v0.1.11 (Thu Jun 30 2022)
+
+#### 🐛 Bug Fix
+
+- Change page padding [#2](https://github.com/cybot1711/kleen-ui/pull/2) ([@cybot1711](https://github.com/cybot1711))
+
+#### Authors: 1
+
+- Jahil Khalfe ([@cybot1711](https://github.com/cybot1711))
+
+---
+
 # v0.1.10 (Thu Jun 30 2022)
 
 #### ⚠️ Pushed to `main`
