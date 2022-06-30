@@ -1,3 +1,15 @@
+# v0.1.12 (Thu Jun 30 2022)
+
+#### 🐛 Bug Fix
+
+- Add readme to package json [#3](https://github.com/cybot1711/kleen-ui/pull/3) ([@cybot1711](https://github.com/cybot1711))
+
+#### Authors: 1
+
+- Jahil Khalfe ([@cybot1711](https://github.com/cybot1711))
+
+---
+
 # v0.1.11 (Thu Jun 30 2022)
 
 #### 🐛 Bug Fix
