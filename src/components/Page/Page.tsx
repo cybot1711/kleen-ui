@@ -8,7 +8,6 @@ import { type PageProps } from './types'
 
 const Root = styled(Box)(styles.page) as typeof Box
 const PageContent = styled('div')(styles.maxWidth)
-
 /**
  * Wrapper component for pages.
  * Additional props will be applied to the root div element.

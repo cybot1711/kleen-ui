@@ -6,7 +6,11 @@ export const styles = {
     padding: theme.spacing(5),
     backgroundColor: theme.palette.gallery,
   }),
-  maxWidth: {
+  maxWidth: ({ theme }: { theme: Theme }) => ({
     margin: '0 auto',
-  },
+    minWidth: theme.values.minContentWidthSm,
+    [theme.breakpoints.up('md')]: {
+      minWidth: theme.values.minContentWidthMd,
+    },
+  }),
 } as const

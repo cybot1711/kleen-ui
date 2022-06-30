@@ -29,6 +29,8 @@ declare module '@mui/material/styles' {
     customShadow: string
     values: {
       maxContentWidth: number
+      minContentWidthSm?: number
+      minContentWidthMd?: number
     }
   }
 
@@ -36,6 +38,8 @@ declare module '@mui/material/styles' {
     customShadow?: string
     values?: {
       maxContentWidth?: number
+      minContentWidthSm?: number
+      minContentWidthMd?: number
     }
   }
 }
