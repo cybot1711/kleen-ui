@@ -2,15 +2,21 @@ import { type Theme } from '@mui/material'
 
 export const styles = {
   container: ({ theme }: { theme: Theme }) => ({
-    padding: theme.spacing(4),
-    boxShadow: theme.customShadow,
-    borderRadius: 8,
-    [theme.breakpoints.up('md')]: {
-      padding: theme.spacing(5),
+    '&.MuiPaper-root': {
+      padding: theme.spacing(4),
+      boxShadow: theme.customShadow,
+      borderRadius: theme.spacing(2),
+      minWidth: 180,
+      display: 'flex',
+      flexDirection: 'column',
+      [theme.breakpoints.up('md')]: {
+        padding: theme.spacing(5),
+      },
     },
   }),
   content: {
     padding: 0,
+    flex: 1,
   },
   impact: ({ theme }: { theme: Theme }) => ({
     display: 'flex',

@@ -7,10 +7,8 @@ import { styled } from '@mui/material/styles'
 import { styles } from './styles'
 import { type DrawerProps } from './types'
 
-// @ts-expect-error: type mismatch
 const Root = styled(MuiDrawer)(styles.container) as typeof MuiDrawer
 const StyledContentContainer = styled('div')(styles.contentContainer)
-// @ts-expect-error: type mismatch
 const StyledIconButton = styled(IconButton)(styles.closeX) as typeof IconButton
 
 /** Slide-out drawer */

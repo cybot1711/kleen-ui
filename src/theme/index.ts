@@ -1,8 +1,8 @@
 import { createTheme } from '@mui/material/styles'
 
-import { type Theme, Typography, Grid } from '@mui/material'
+import { type Theme, Typography, Grid, Breakpoint } from '@mui/material'
 
-export const theme = createTheme({
+export const customTheme = {
   palette: {
     midnight: '#253648',
     gallery: '#F7F7F8',
@@ -15,7 +15,7 @@ export const theme = createTheme({
     grayPillBg: '#EEEFF1',
   },
   breakpoints: {
-    keys: ['xs', 'sm', 'md', 'lg', 'xl'],
+    keys: ['xs', 'sm', 'md', 'lg', 'xl'] as Breakpoint[],
     values: { xs: 0, sm: 375, md: 768, lg: 1028, xl: 1280 },
   },
   spacing: (multiplier: number): number => {
@@ -45,6 +45,8 @@ export const theme = createTheme({
     minContentWidthSm: 768,
     minContentWidthXs: 375,
   },
-})
+} as const
+
+export const theme = createTheme(customTheme)
 
 export { type Theme, Typography, Grid }
