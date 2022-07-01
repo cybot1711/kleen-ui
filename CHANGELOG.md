@@ -1,3 +1,15 @@
+# v0.1.15 (Fri Jul 01 2022)
+
+#### 🐛 Bug Fix
+
+- Chore/update card layout [#6](https://github.com/cybot1711/kleen-ui/pull/6) ([@cybot1711](https://github.com/cybot1711))
+
+#### Authors: 1
+
+- Jahil Khalfe ([@cybot1711](https://github.com/cybot1711))
+
+---
+
 # v0.1.14 (Thu Jun 30 2022)
 
 #### 🐛 Bug Fix
