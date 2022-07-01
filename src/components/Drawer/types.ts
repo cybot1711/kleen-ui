@@ -1,7 +1,7 @@
 import { type ReactNode } from 'react'
 import { type PaperProps } from '@mui/material'
 
-export interface DrawerProps extends Omit<PaperProps, 'title'> {
+export interface DrawerProps extends PaperProps {
   /** Additional CSS class(es) */
   className: string
   /** Test ID */
