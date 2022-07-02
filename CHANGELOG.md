@@ -1,3 +1,15 @@
+# v0.1.16 (Sat Jul 02 2022)
+
+#### 🐛 Bug Fix
+
+- Need some skeleton love in the app. [#7](https://github.com/cybot1711/kleen-ui/pull/7) ([@cybot1711](https://github.com/cybot1711))
+
+#### Authors: 1
+
+- Jahil Khalfe ([@cybot1711](https://github.com/cybot1711))
+
+---
+
 # v0.1.15 (Fri Jul 01 2022)
 
 #### 🐛 Bug Fix
