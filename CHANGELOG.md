@@ -1,3 +1,15 @@
+# v0.1.17 (Sun Jul 03 2022)
+
+#### 🐛 Bug Fix
+
+- Chore/add electoral card option [#8](https://github.com/cybot1711/kleen-ui/pull/8) ([@cybot1711](https://github.com/cybot1711))
+
+#### Authors: 1
+
+- Jahil Khalfe ([@cybot1711](https://github.com/cybot1711))
+
+---
+
 # v0.1.16 (Sat Jul 02 2022)
 
 #### 🐛 Bug Fix
