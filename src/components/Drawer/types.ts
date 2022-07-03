@@ -3,15 +3,15 @@ import { type PaperProps } from '@mui/material'
 
 export interface DrawerProps extends PaperProps {
   /** Additional CSS class(es) */
-  className: string
+  className?: string
   /** Test ID */
-  'data-testid': string
+  'data-testid'?: string
   /** Drawer position */
   anchor: 'left' | 'right' | 'top' | 'bottom'
   /** Drawer contents */
   children: ReactNode | undefined
   /** Handles on close event title */
-  onClose: () => void
+  onClose?: () => void
   /** Is the drawer Open? */
   open: boolean
 }
