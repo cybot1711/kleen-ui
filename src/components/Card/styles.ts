@@ -12,6 +12,9 @@ export const styles = {
       [theme.breakpoints.up('md')]: {
         padding: theme.spacing(5),
       },
+      '&:hover': {
+        boxShadow: theme.customShadowRaised,
+      },
     },
   }),
   content: {

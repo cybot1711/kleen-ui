@@ -35,6 +35,7 @@ export const customTheme = {
     }
   },
   customShadow: '0 0.5rem 0.75rem rgba(0,0,0,0.16)',
+  customShadowRaised: '0 0.95rem 1rem rgba(0,0,0,0.16)',
   typography: {
     htmlFontSize: 16,
     fontSize: 16,
