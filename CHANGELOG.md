@@ -1,3 +1,15 @@
+# v0.1.18 (Sun Jul 03 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Update drawer props ([@cybot1711](https://github.com/cybot1711))
+
+#### Authors: 1
+
+- Jahil Khalfe ([@cybot1711](https://github.com/cybot1711))
+
+---
+
 # v0.1.17 (Sun Jul 03 2022)
 
 #### 🐛 Bug Fix
