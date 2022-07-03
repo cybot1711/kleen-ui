@@ -34,7 +34,6 @@ BasicUsage.storyName = 'Basic usage'
 BasicUsage.args = {
   className: 'some-class',
   title: 'Card title',
-  elevation: 3,
   description:
     'This is a very long description. It was put here to lengthen the card in the story. This is a very long description. It was put here to lengthen the card in the story. This is a very long description. It was put here to lengthen the card in the story',
 }
