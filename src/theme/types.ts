@@ -27,6 +27,7 @@ declare module '@mui/material/styles/createPalette' {
 declare module '@mui/material/styles' {
   interface Theme {
     customShadow: string
+    customShadowRaised: string
     values: {
       maxContentWidth: number
       minContentWidthXs: number
@@ -37,6 +38,7 @@ declare module '@mui/material/styles' {
 
   interface ThemeOptions {
     customShadow?: string
+    customShadowRaised?: string
     values?: {
       maxContentWidth?: number
       minContentWidthXs?: number

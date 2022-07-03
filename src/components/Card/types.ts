@@ -13,6 +13,10 @@ export interface CardProps extends MuiCardProps {
   title?: string
   /** The title */
   description?: string
+  /** Electoral tag */
+  isElectoral?: boolean
   /** Test ID */
   'data-testid'?: string
+  /** Handles learn more click */
+  handleClick?: () => void
 }

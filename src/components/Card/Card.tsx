@@ -1,6 +1,6 @@
 import React, { type FC } from 'react'
 
-import { Card as MuiCard, Typography, CardContent, Grid } from '@mui/material'
+import { Card as MuiCard, Typography, CardContent, Grid, Link, Button } from '@mui/material'
 import { styled } from '@mui/material/styles'
 import clsx from 'clsx'
 import { styles } from './styles'
@@ -20,6 +20,8 @@ export const Card: FC<CardProps> = ({
   description = 'Card description',
   tag,
   impactTag,
+  isElectoral = false,
+  handleClick,
   'data-testid': dataTestId = 'Card',
   ...muiCardProps
 }) => {
@@ -38,6 +40,11 @@ export const Card: FC<CardProps> = ({
         <Typography variant='body2' color='text.secondary'>
           {description}
         </Typography>
+        {isElectoral && (
+          <Link component='button' variant='body2' onClick={handleClick} fontWeight='bold'>
+            Learn more
+          </Link>
+        )}
       </StyledContent>
       <Grid container spacing={3} mt={2}>
         <StyledImpact item xs>
