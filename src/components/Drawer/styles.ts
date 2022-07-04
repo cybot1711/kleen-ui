@@ -1,4 +1,5 @@
-import { type Theme } from '@mui/material'
+import { Drawer as MuiDrawer, IconButton, type Theme } from '@mui/material'
+import { styled } from '@mui/material/styles'
 
 const closeXSize = 32
 
@@ -25,3 +26,7 @@ export const styles = {
     },
   }),
 } as const
+
+export const Root = styled(MuiDrawer)(styles.container) as typeof MuiDrawer
+export const StyledContentContainer = styled('div')(styles.contentContainer)
+export const StyledIconButton = styled(IconButton)(styles.closeX) as typeof IconButton
