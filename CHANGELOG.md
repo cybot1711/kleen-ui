@@ -1,3 +1,16 @@
+# v0.1.19 (Mon Jul 04 2022)
+
+#### 🐛 Bug Fix
+
+- Update node engines [#10](https://github.com/cybot1711/kleen-ui/pull/10) ([@cybot1711](https://github.com/cybot1711))
+- Chore/houskeeping [#9](https://github.com/cybot1711/kleen-ui/pull/9) ([@cybot1711](https://github.com/cybot1711))
+
+#### Authors: 1
+
+- Jahil Khalfe ([@cybot1711](https://github.com/cybot1711))
+
+---
+
 # v0.1.18 (Sun Jul 03 2022)
 
 #### ⚠️ Pushed to `main`
