@@ -1,4 +1,5 @@
-import { type Theme } from '@mui/material'
+import { Card as MuiCard, CardContent, Grid, type Theme } from '@mui/material'
+import { styled } from '@mui/material/styles'
 
 export const styles = {
   container: ({ theme }: { theme: Theme }) => ({
@@ -34,3 +35,8 @@ export const styles = {
     },
   }),
 } as const
+
+export const Root = styled(MuiCard)(styles.container) as typeof MuiCard
+export const StyledContent = styled(CardContent)(styles.content)
+export const StyledImpact = styled(Grid)(styles.impact) as typeof Grid
+export const StyledImpactDesktop = styled(Grid)(styles.impactDesktop) as typeof Grid
