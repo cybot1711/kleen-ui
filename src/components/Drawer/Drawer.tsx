@@ -1,17 +1,13 @@
 import React, { type FC } from 'react'
 
-import { Close } from '@mui/icons-material'
-import { Drawer as MuiDrawer, IconButton } from '@mui/material'
 import clsx from 'clsx'
-import { styled } from '@mui/material/styles'
-import { styles } from './styles'
+import { Close } from '@mui/icons-material'
+import { Root, StyledContentContainer, StyledIconButton, styles } from './styles'
 import { type DrawerProps } from './types'
 
-const Root = styled(MuiDrawer)(styles.container) as typeof MuiDrawer
-const StyledContentContainer = styled('div')(styles.contentContainer)
-const StyledIconButton = styled(IconButton)(styles.closeX) as typeof IconButton
-
-/** Slide-out drawer */
+/**
+ * Slide-out drawer extended from MUI drawer.
+ */
 export const Drawer: FC<DrawerProps> = ({
   'data-testid': dataTestId = 'Drawer',
   anchor = 'right',

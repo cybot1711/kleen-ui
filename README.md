@@ -25,6 +25,7 @@ The core libraries are listed here:
 * [MaterialUI](https://mui.com/)
 * [Typescript](https://www.typescriptlang.org/)
 * [CreatReactApp](https://create-react-app.dev/)
+* [Chromatic](https://www.chromatic.com/)
 * [ESLint](https://eslint.org/)
 * [Prettier](https://prettier.io/)
 
@@ -35,6 +36,8 @@ ESLint and prettier are set up as combined config. Formatting will run as part o
 ## Getting Started
 
 ### Prerequisites
+>`node version set to LTS`  
+`yarn package manager`
 
 ### Installation
 
@@ -82,6 +85,7 @@ Here will follow steps to run the project.
 _Library Selection_
 * ReactJS - The required tool for the job.
 * Material UI - Quick multi select.
+* Chromatic - Automates UI testing.
 * Typescript - For some added Type safety to tighten up the data contract across various segments of the app. Also aids in catching
   bugs that you might have missed.
 * Prettier - Formats the code.
@@ -91,10 +95,10 @@ _Start Command_ `yarn start` (<a href="#usage">Refer to the usage section</a>)
 
 ### General
 Given more time I would Implement the following.
-* Config setup for test, staging and prod.
+* Add some more in detail docs.
 * Implement path aliases for module imports.
 * Error handling and tracking.
-* More reusable components.
+* Add some More reusable components.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

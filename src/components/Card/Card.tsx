@@ -1,15 +1,9 @@
 import React, { type FC } from 'react'
 
-import { Card as MuiCard, Typography, CardContent, Grid, Link, Button } from '@mui/material'
-import { styled } from '@mui/material/styles'
+import { Grid, Link, Typography } from '@mui/material'
 import clsx from 'clsx'
-import { styles } from './styles'
 import { type CardProps } from './types'
-
-const Root = styled(MuiCard)(styles.container) as typeof MuiCard
-const StyledContent = styled(CardContent)(styles.content)
-const StyledImpact = styled(Grid)(styles.impact)
-const StyledImpactDesktop = styled(Grid)(styles.impactDesktop)
+import { Root, StyledContent, StyledImpact, StyledImpactDesktop } from './styles'
 
 /**
  * Card extended from material ui.

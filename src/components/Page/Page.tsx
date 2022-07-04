@@ -1,13 +1,8 @@
 import React, { type FC } from 'react'
 
-import { Box, type Theme } from '@mui/material'
-import { styled } from '@mui/material/styles'
-
-import { styles } from './styles'
+import { PageContent, Root } from './styles'
+import { type Theme } from '@mui/material'
 import { type PageProps } from './types'
-
-const Root = styled(Box)(styles.page) as typeof Box
-const PageContent = styled('div')(styles.maxWidth)
 
 /**
  * Wrapper component for pages.
