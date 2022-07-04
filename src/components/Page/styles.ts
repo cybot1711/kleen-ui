@@ -1,4 +1,5 @@
-import { type Theme } from '@mui/material'
+import { Box, type Theme } from '@mui/material'
+import { styled } from '@mui/material/styles'
 
 export const styles = {
   page: ({ theme }: { theme: Theme }) => ({
@@ -16,4 +17,7 @@ export const styles = {
       minWidth: theme.values.minContentWidthMd,
     },
   }),
-}
+} as const
+
+export const Root = styled(Box)(styles.page) as typeof Box
+export const PageContent = styled('div')(styles.maxWidth)

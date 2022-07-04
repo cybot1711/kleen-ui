@@ -1,7 +1,7 @@
 import React, { type FC } from 'react'
 
-import { Close } from '@mui/icons-material'
 import clsx from 'clsx'
+import { Close } from '@mui/icons-material'
 import { Root, StyledContentContainer, StyledIconButton, styles } from './styles'
 import { type DrawerProps } from './types'
 
